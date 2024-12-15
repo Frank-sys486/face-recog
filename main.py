@@ -37,7 +37,7 @@ while True:
         counter += 1 
 
         if face_match:
-            cv2.putText(frame, "mMATCH!", (24,450), cv2.FONT_HERSHEY_SIMPLEX, 2, (0,255,0),3)
+            cv2.putText(frame, "MATCH!", (24,450), cv2.FONT_HERSHEY_SIMPLEX, 2, (0,255,0),3)
         else:
             cv2.putText(frame, "NOT MATCH!", (24,450), cv2.FONT_HERSHEY_SIMPLEX, 2, (0,0,255),3)
         
